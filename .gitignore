@@ -1,0 +1,44 @@
+# 系统缓存
+.DS_Store
+Thumbs.db
+
+# IDE缓存
+.idea/
+.vscode/
+*.iml
+*.classpath
+.project
+.c9/
+
+# 编译、运行缓存
+target/
+build/
+dist/
+out/
+/*.log
+*.tmp
+*.bak
+
+# 环境配置、密钥
+.env
+*.properties.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+venv/
+.venv/
+.pytest_cache/
+
+# 测试运行产物
+log/
+report/
+img/
+
+# 本地学习/练习脚本，不随仓库发布
+lx/
+
+# Node前端
+node_modules/
+npm-debug.log

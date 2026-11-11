@@ -1,0 +1,20 @@
+[
+  {
+    "username": "test_user@example.com",
+    "password": "your_password",
+    "expect_result": "用户",
+    "img": "login_success"
+  },
+    {
+    "username": "test_user@example.com",
+    "password": "Aa12345",
+    "expect_result": "账号或密码错误",
+    "img": "login_pwd_error"
+  },
+    {
+    "username": "invalid_email",
+    "password": "your_password",
+    "expect_result": "账号格式错误",
+    "img": "login_username_error"
+  }
+]
